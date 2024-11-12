@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(sb.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brithday_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 60px;
+    margin: 30px 0;
+}
+.count_box{
+    margin: 0 20px;
+    font-size: 40px;
+}
